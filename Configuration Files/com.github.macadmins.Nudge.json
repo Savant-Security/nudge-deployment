@@ -16,9 +16,33 @@
           "aboutUpdateURL": "https://support.apple.com/en-us/HT213268"
         }
       ],
-      "requiredInstallationDate": "2023-06-02T00:00:01Z",
+      "requiredInstallationDate": "2023-06-10T00:00:01Z",
       "requiredMinimumOSVersion": "13.4",
-      "targetedOSVersionsRule": "default"
+      "targetedOSVersionsRule": "13"
+    },
+    {
+      "aboutUpdateURLs": [
+        {
+          "_language": "en",
+          "aboutUpdateURL": "https://support.apple.com/en-us/HT213268"
+        }
+      ],
+      "majorUpgradeAppPath": "/System/Library/CoreServices/Software Update.app",
+      "requiredInstallationDate": "2023-06-10T00:00:01Z",
+      "requiredMinimumOSVersion": "13.4",
+      "targetedOSVersionsRule": "12"
+    },
+    {
+      "aboutUpdateURLs": [
+        {
+          "_language": "en",
+          "aboutUpdateURL": "https://support.apple.com/en-us/HT213268"
+        }
+      ],
+      "majorUpgradeAppPath": "/Applications/Install macOS Ventura.app",
+      "requiredInstallationDate": "2023-06-10T00:00:01Z",
+      "requiredMinimumOSVersion": "13.4",
+      "targetedOSVersionsRule": "11"
     }
   ],
   "userExperience": {
@@ -31,7 +55,7 @@
     "maxRandomDelayInSeconds": 1200,
     "noTimers": false,
     "nudgeRefreshCycle": 60,
-    "randomDelay": false
+    "randomDelay": true
   },
   "userInterface": {
     "fallbackLanguage": "en",
@@ -47,16 +71,16 @@
     "updateElements": [
       {
         "_language": "en",
-        "actionButtonText": "Update Device",
+        "actionButtonText": "Update Computer",
         "informationButtonText": "More Info",
-        "mainContentHeader": "Your device will restart during this update",
+        "mainContentHeader": "Your computer will restart during this update",
         "mainContentNote": "Important Notes",
-        "mainContentSubHeader": "Updates can take around 10-15 minutes to complete.",
-        "mainContentText": "A fully up-to-date device is required to ensure that we on the techops team can protect our data.\n\nIf you do not update by the due date, you will effectively be locked out of your system until you complete the update.\n\nWhile the update has been rigorously tested it's advised you do this as soon as possible to avoid any downtime, as well as help us find any issues early on with the update.\n\nTo begin the update, simply click on the Update Device button and follow the prompts.\n\nFor more information, hit *More Info* in the bottom left corner of this window.",
-        "mainHeader": "Your device requires a macOS Security Update",
+        "mainContentSubHeader": "Updates can take between 30 minutes to 1 hour.",
+        "mainContentText": "A fully up-to-date computer is required to ensure the safety of our data.\n\nIf you do not update, you may lose access to some items necessary for your day-to-day tasks.\n\nTo begin the update, simply click on the Update Computer button and follow the prompts.\n\nTo be reminded later, select a deferral option below.\n\n",
+        "mainHeader": "Your computer requires a macOS Security Update",
         "primaryQuitButtonText": "Later",
         "secondaryQuitButtonText": "I understand",
-        "subHeader": "A friendly reminder from your local IT team"
+        "subHeader": "A friendly reminder from the Savant Security team"
       }
     ]
   }
