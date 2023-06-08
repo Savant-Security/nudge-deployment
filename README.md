@@ -1,10 +1,10 @@
-# Nudge
+# nudge-deployment
 
-`Assets` directory = Image files for nudge
+`Assets` directory contains image files for nudge
 
-`Configuration Files` directory = Ready to go files for nudge
+`Configuration Files` directory contains configuration files for nudge
 
-`MDM Commands` directory = Script to grab image assets (update screenshots, nice rainbow coloured apple logo, etc) and dump them in /tmp/. You can just copy and paste the script as a custom command in mosyle to grab images on user sign in.
+`MDM Commands` directory contains script to grab image assets for nudge UI customization 
 
 The `nudge-macos-web.mobileconfig` which will instead ping the `com.github.macadmins.Nudge.json` file for new info every 30 mins.
 
