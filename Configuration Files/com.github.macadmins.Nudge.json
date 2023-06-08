@@ -76,7 +76,7 @@
         "mainContentHeader": "Your computer will restart during this update",
         "mainContentNote": "Important Notes",
         "mainContentSubHeader": "Updates can take between 30 minutes to 1 hour.",
-        "mainContentText": "A fully up-to-date computer is required to ensure the safety of our data.\n\nIf you do not update, you may lose access to some items necessary for your day-to-day tasks.\n\nTo begin the update, simply click on the Update Computer button and follow the prompts.\n\nTo be reminded later, select a deferral option below.\n\n",
+        "mainContentText": "A fully up-to-date computer is required to ensure the safety of our data.\n\nIf you do not update, you may lose access to some items necessary for your day-to-day tasks.\n\nTo begin the update, click on the Update Computer button and follow the prompts.\n\nTo be reminded later, select a deferral option below.",
         "mainHeader": "Your computer requires a macOS Security Update",
         "primaryQuitButtonText": "Later",
         "secondaryQuitButtonText": "I understand",
